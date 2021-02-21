@@ -1,0 +1,22 @@
+
+KRAVSPECIFIKATION
+
+STATUS  KRAV
+x       Skapa ett kontaktformulär enligt skärmbilden ovan.
+x       Data måste skickas med HTTP-metoden POST.
+
+x       Skriv serverkod i PHP för hantering av formulärdata.
+
+x       Säkerhetsoptimera data (validera och rensa) genom att använda filters!
+        https://www.w3schools.com/php/php_filter.asp
+
+x       Använd PDO för att spara data i en MySQL-databas.
+
+x       Databasen skall bestå av en enda tabell.
+x       Välj lämplig struktur på tabellen.
+x       Tabellen måste ha en primärnyckel med ”Auto Increment”.
+
+x       Skapa en admin-sida för att kunna se en lista/tabell över alla meddelanden.
+x       Spara admin-sidan i en undermapp som heter admin.
+x       En admin skall kunna ta bort enskilda meddelanden.
+x       En admin skall kunna ta bort alla meddelanden.
