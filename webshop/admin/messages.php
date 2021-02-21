@@ -3,7 +3,7 @@
 /****************************************
  * 
  *                READ
- * Läs tabellen meddelanden från databasen
+ * Läs tabellen $tblName från databasen
  * Presentera resultatet i en HTML-tabell
  * 
  ***************************************/

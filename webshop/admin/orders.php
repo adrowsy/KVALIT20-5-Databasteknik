@@ -3,7 +3,7 @@
 /****************************************
  * 
  *                READ
- * Läs tabellen meddelanden från databasen
+ * Läs tabellen $tblName från databasen
  * Presentera resultatet i en HTML-tabell
  * 
  ***************************************/
@@ -69,8 +69,6 @@ HTML;
 if ($items > 0) {
 
     echo $table;
-
-   
 } else {
     echo <<<HTML
     <div class="row">
